@@ -17,6 +17,11 @@ div.borph div.page {
   text-align: justify;
 }
 
+div.borph div.page {
+  margin: 4px 2em 0 1em;
+  text-align: justify;
+}
+
 div.borph table {
   font-size: 100%;
 }
@@ -443,3 +448,9 @@ div.borph div.meta div.user {
 div.borph div.meta div.doc {
   text-align: right;
 }
+
+div.borph div.level1 { margin-left: 13px; }
+div.borph div.level2 { margin-left: 33px; }
+div.borph div.level3 { margin-left: 53px; }
+div.borph div.level4 { margin-left: 73px; }
+div.borph div.level5 { margin-left: 93px; }
