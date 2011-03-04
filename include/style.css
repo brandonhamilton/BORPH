@@ -180,6 +180,74 @@ div.borph li.closed {
     background: #f7f7f7 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F7F7F7))
 }
 
+.borph .menu li, .borph .menu ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu a.wikilink1:link, .menu a.wikilink1:visited  {
+    display: block;
+    color: #787C80;
+    color: rgba(0,0,0,0.65);
+    padding: 9px 0px 9px 13px;
+    text-shadow: white 1px 1px;
+    text-decoration: none!important;
+
+}
+
+
+.menu ul ul {
+    background-color: rgba(0,0,0, 0.05);
+}
+
+
+
+.menu ul ul ul {
+    background-color: transparent;
+}
+
+.menu ul ul ul a {
+}
+
+.menu ul ul ul {
+    padding-left: 0.75em !important;
+}
+.menu ul ul a.wikilink1:link {
+
+}
+
+/* Alle aktiven Links */
+.menu .curid a.wikilink1:link,.menu .curid a.wikilink1:visited {
+    color: black;
+}
+
+
+/* Erste Ebene, alle Links */
+.menu > ul > li > div a {
+    border-bottom: 1px solid #e5e5e5;
+/*  border-bottom: 1px solid rgba(0,0,0, 0.05);*/
+
+}
+/* Erste Ebene, aktiver Hintergrund */
+.menu > ul > li > div > .current {
+    display: block;
+    background: #dcdcdc -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f3f3), to(#DCDCDC));
+}
+/* Erste Ebene, aktiver Link */
+.menu > ul > li > div > .current a.wikilink1 {
+
+}
+
+/* Zweite Ebene, alle Links */
+.menu > ul > li > ul > li > div > a {
+
+}
+/* Zweite Ebene, aktiver Link */
+.menu > ul > li > ul > li > div > .current a.wikilink1 {
+
+}
+
 div.borph #page > h1:first-child {
     font-size: 3em;
     line-height: 1em;
