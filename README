@@ -1,0 +1,13 @@
+   ___    ___  __    ___       
+  / __\  /___\/__\  / _ \/\  /\
+ /__\// //  // \// / /_)/ /_/ /
+/ \/  \/ \_// _  \/ ___/ __  / 
+\_____/\___/\/ \_/\/   \/ /_/  
+                               
+--------------------------------
+
+BORPH is an operating system designed for FPGA-based reconfigurable computers, implemented as an extension of the Linux kernel. Reconfigurable hardware, such as FPGAs, are treated as computational resources within the operating system. These resources are defined as hardware regions (HWRs), which can be implemented as an entire FPGA, or partially recongurable regions within a single FPGA.
+
+This abstraction allows the kernel to deal with the platform specific details and removes the need for the application designer to address these low level implementation details. Through a UNIX process model, BORPH provides a unified hardware/software application runtime environment. Runtime support services, such as file system access, network access, and signal handling are made available to hardware designs by the kernel.
+
+BORPH aims to provide increased usability for reconfigurable platforms, with a focus on simplifying hardware/software co-design. An entire design, consisting in part of either hardware, software or both hardware and software components, is encapsulated in a BORPH executable (BOF) file. A unified interface to execution and communication with the application is provided by the kernel. This allows designers to focus efforts on the application specific functionality of their designs, without the need to worry about low level implementation details such as writing device drivers for communication.
