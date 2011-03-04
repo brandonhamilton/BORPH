@@ -1,0 +1,377 @@
+/**
+ * BORPH page style
+ * Brandon Hamilton
+ *
+ */
+
+* { padding: 0; margin: 0; }
+
+body {
+  font: 80% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+div.borph div.page {
+  margin: 4px 2em 0 1em;
+  text-align: justify;
+}
+
+div.borph table {
+  font-size: 100%;
+}
+
+div.borph tr,
+div.borph td,
+div.borph th {
+}
+
+div.borph img {
+  border: 0;
+}
+
+div.borph p,
+div.borph blockquote,
+div.borph table,
+div.borph pre {
+  margin: 0 0 1.0em 0;
+}
+
+div.borph hr {
+  border: 0px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  height: 0px;
+}
+
+div.borph div.nothing {
+  text-align: center;
+  margin: 2em;
+}
+
+div.borph a:link,
+div.borph a:visited {
+  color: #08C;
+  text-decoration: none;
+}
+div.borph a:hover,
+div.borph a:active {
+  color: #333;
+  text-decoration: underline;
+}
+
+div.borph h1 a,
+div.borph h2 a,
+div.borph h3 a,
+div.borph h4 a,
+div.borph h5 a,
+div.borph a.nolink {
+  text-decoration: none;
+}
+
+div.borph h1,
+div.borph h2,
+div.borph h3,
+div.borph h4,
+div.borph h5 {
+        
+    clear: left;
+}
+
+div.borph h1 a:hover,
+div.borph h2 a:hover,
+div.borph h3 a:hover,
+div.borph h4 a:hover,
+div.borph h5 a:hover {
+        text-decoration: none;
+}
+
+div.borph div.breadcrumbs {
+  background-color: #DADFE7;
+  color: #666;
+  font-size: 80%;
+  padding: 0 0 0 4px;
+}
+
+/* unordered lists */
+div.borph ul {
+  line-height: 1.5em;
+  list-style-type: square;
+  list-style-image: none;
+  margin: 0 0 1em 3.5em;
+  color: #638c9c;
+}
+
+/* ordered lists */
+div.borph ol {
+  line-height: 1.5em;
+  list-style-image: none;
+  margin: 0 0 1em 3.5em;
+  color: #638c9c;
+  font-weight: bold;
+}
+
+/* no bottom gap in between and smaller left margin for nested lists */
+div.borph li ul,
+div.borph li ol {
+  margin: 0 0 0 1.5em;
+}
+
+/* the list items overriding the ul/ol definition */
+div.borph .li {
+  color: #333;
+  font-weight: normal;
+}
+
+div.borph ol { list-style-type: decimal; }
+div.borph ol ol { list-style-type: upper-roman; }
+div.borph ol ol ol { list-style-type: lower-alpha; }
+div.borph ol ol ol ol { list-style-type: lower-greek; }
+
+div.borph li.open {
+  list-style-image: url(images/open.gif);
+    /*list-style-type: circle;*/
+}
+
+div.borph li.closed {
+  list-style-image: url(images/closed.gif);
+    /*list-style-type: disc;*/
+}
+
+#menubar {
+    display: block;
+    clear: both;
+    width: 980px;
+    height: 2.6364em; 
+    margin: 1em auto;
+
+}
+
+
+#sitetitle {
+    display: block;
+    color: #1F1f1F;
+    text-decoration: none;
+    float: left;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
+    color: rgba(0,0,0, .75);
+    
+    font-size: 1.8333em; /* 22px */
+    line-height: 1.6364em; /* 36px */
+    height: 1.6364em; /* 36px */
+    margin-bottom: 0em;
+    margin-left: 12px;
+    text-shadow: white 1px 1px;
+    
+}
+
+.page {
+    background-color: white;
+}
+
+.sidebar-box {
+    width: 80%;
+    margin: 2em auto;
+    -webkit-box-shadow: 0px 1px 3px #b1b1b1;
+    border-radius: 5px;
+    padding: 1em;
+    overflow: hidden;
+    background: #f7f7f7 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#F7F7F7))
+}
+
+div.borph #page > h1:first-child {
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 0.75em;
+    margin-top: 0.5em;
+}
+
+
+div.borph #page h1 { 
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold; 
+    color: rgba(0,0,0, .95);
+    
+    font-size: 2em; /* 24px */
+  line-height: 1.5em; /* 36px */
+  margin-top: 0.75em;
+  margin-bottom: 0em;
+}
+
+div.borph #page h2 {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold; 
+
+    color: rgba(0,0,0, .75);
+    
+    font-size: 1.8333em; /* 22px */
+  line-height: 1.6364em; /* 36px */
+  margin-top: 0.8182em;
+  margin-bottom: 0em;
+}
+div.borph #page h3 { 
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: bold; 
+  color: rgba(0,0,0, .65);  
+  font-size: 1.6667em; /* 20px */
+  line-height: 1.8em; /* 36px */
+  margin-top: 0.9em;
+  margin-bottom: 0em;
+}
+div.borph #page h4 { 
+  font-size: 1.5em; /* 18px */
+  line-height: 1em; /* 18px */
+  margin-top: 1em;
+  margin-bottom: 0em;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold; 
+    color: black; 
+    color: rgba(0,0,0, .55);
+    
+
+}
+div.borph #page h5 { 
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold; 
+    color: black; 
+    color: rgba(0,0,0, .45);
+    
+    font-size: 1.3333em; /* 16px */
+    line-height: 1.125em; /* 18px */
+    margin-top: 1.125em;
+    margin-bottom: 0em;
+}
+
+div.borph #page h6 { 
+    font-size: 1.1667em; /* 14px */
+    line-height: 1.2857em; /* 18px */
+    margin-top: 1.2857em;
+    margin-bottom: 0em;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-weight: bold; 
+    color: black; 
+    color: rgba(0,0,0, .4);
+}
+
+
+.sidebar-box h1, .sidebar-box h2,.sidebar-box h3, .sidebar-box h4,.sidebar-box h5 {
+    margin-bottom: 1em;
+    font-size: 120%;
+}
+
+.sidebar_box {
+    border-top: 1px solid black;
+}
+
+html { background:#F1F1F1 none repeat scroll 0 0; }
+body { font:12px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif; color:#333; background:transparent; }
+
+/*vertical rhythm */
+h1, h2,h3, h4,h5 {
+  font-family: Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1em; /* 12px */
+  line-height: 1.5em; /* 18px */
+  margin: 0 0 1.5em 0;
+}
+
+#wrapper {
+    margin: 2em auto;
+    width:980px; 
+    -webkit-box-shadow: 0px 1px 3px #b1b1b1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dw-left #wrapper {
+    background: white url('/images/main-background.png') repeat-y 240px 0px;
+
+}
+
+#wrapper {
+    margin-bottom: 4em;
+}
+
+#page {
+    padding: 42px;
+}
+
+.right-page {
+    margin-left: 245px;
+    overflow: hidden;
+    width: 735px;
+}
+
+.left-sidebar {
+    float: left;
+    width: 240px;
+}
+
+.breadcrumbs {
+    clear: both;
+}
+
+div.borph div.left_sidebar div.secedit,
+div.borph div.right_sidebar div.secedit {
+    text-align: right;
+}
+
+div.borph div.left_sidebar div.breadcrumbs,
+div.borph div.right_sidebar div.breadcrumbs {
+    margin-left: 0;
+}
+
+
+#trail {
+    font: 0.75em;
+    background-image: url('/images/bc_bg.png'); 
+    background-repeat: repeat-x;
+    height: 30px;
+    line-height: 30px;
+    border:solid 1px #cacaca;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+#trail a {
+    list-style-type: none;
+    float: left;
+    height: 30px;
+    display:block;
+    background-image: url('/images/bc_separator.png'); 
+    background-repeat: no-repeat; 
+    background-position: right;
+    padding-right: 15px !important;
+    padding-left: 9px;
+    text-decoration: none;
+    color:#454545;
+    text-shadow: white 1px 1px;
+}
+
+#trail a:hover {
+    color: #08C;
+}
+
+#trail .bchead {
+    display: none;
+}
+
+div.borph div.meta {
+  clear: both;
+  margin-top: 1em;
+  color: #638c9c;
+  font-size: 70%;
+}
+
+div.borph div.meta div.user {
+  float: left;
+}
+
+div.borph div.meta div.doc {
+  text-align: right;
+}
